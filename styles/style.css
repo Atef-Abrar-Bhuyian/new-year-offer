@@ -180,3 +180,69 @@ font-size: 28px;
 font-weight: 600;
 line-height: 56px;
 }
+
+/* Welcome Section Styles ends */
+
+/* coming soon section starts here */
+
+
+.coming-soon-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1320px;
+height: 463px;
+margin: 0 auto;
+}
+
+.coming-soon-content>img{
+    width: 350px;
+    height: 350px;
+}
+
+.coming-soon-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.coming-soon-heading{
+    font-family: Inter;
+font-size: 38px;
+font-weight: 700;
+}
+
+
+.coming-soon-content p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+
+.coming-soon-content{
+    width: 393px;
+height: 255px;
+}
+
+
+.ring{
+    position: absolute;
+    width: 410px;
+    height: 410px;
+    box-sizing: border-box;
+    border: 10px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    margin: -32px -25px;
+    
+}
+
+
+
+
+
+
+
+/* coming soon section ends here */
+
+
