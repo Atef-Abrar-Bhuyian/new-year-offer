@@ -292,3 +292,24 @@ height: 96px;
 }
 
 /* holidays sale styles ends */
+
+/* surprise box styles start */
+
+.surprise-boxs{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+..surprise-boxs img{
+    position:absolute;
+}
+
+
+
+
+
+/* surprise box styles ends */
