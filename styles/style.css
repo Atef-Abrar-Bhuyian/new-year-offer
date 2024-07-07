@@ -157,7 +157,10 @@ border: none;
 }
 
 
-/* Welcome Section Styles Start */
+/* Welcome Section Styles ends */
+
+
+/* event details Section Styles ends */
 
 
 
@@ -181,7 +184,20 @@ font-weight: 600;
 line-height: 56px;
 }
 
-/* Welcome Section Styles ends */
+.event-detail-btn button{
+    margin-top: 50px;
+    font-family: Inter;
+    cursor: pointer;
+    border: none;
+font-size: 16px;
+    color: white;
+    border-radius: 8px;
+background: red;
+padding: 16px 32px 16px 32px;
+font-weight: 700;
+}
+
+/* event details Section Styles ends */
 
 /* coming soon section starts here */
 
@@ -273,7 +289,6 @@ font-size: 20px;
 font-weight: 500;
 width: 890px;
 height: 96px;
-
 }
 
 /* holidays sale styles ends */
