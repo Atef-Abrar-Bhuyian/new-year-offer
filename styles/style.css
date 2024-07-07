@@ -17,7 +17,7 @@ body{
     margin:0 auto;
     margin-top: 50px;
     /* background-color: rgba(0, 0, 0, 0.5); */
-    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../images/Banner\ Image.png");
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../images/Banner-Image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,3 +91,62 @@ padding-bottom: 50px;
 }
 
 /* 65% offer section styles ends */
+
+
+/* Welcome Section Styles Start */
+
+.welcome-section{
+    margin-bottom: 120px;
+}
+
+.welcome-container{
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../images/Vectorrr.png");
+    width: 1320px;
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 600px;
+border-radius: 10px;
+margin: 0 auto;
+padding: 126px;
+}
+
+.welcome-container h1{
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather", serif;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.welcome-container p{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+padding-top: 24px;
+padding-bottom: 48px;
+
+}
+.welcome-container img{
+max-width: 349.16px;
+max-height: 464.65px;
+}
+
+.welcome-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-btn{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+cursor: pointer;
+border: none;
+}
+
+
+/* Welcome Section Styles Start */
