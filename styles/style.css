@@ -10,6 +10,16 @@ body{
     font-family: "Merriweather", serif;
 }
 
+main section{
+    margin-bottom: 120px;
+}
+
+/* Shared Styles */
+
+.primary-color{
+    color: red;
+}
+
 /* Banner Styles start */
 .banner-container{
     max-width: 1320px;
@@ -95,9 +105,7 @@ padding-bottom: 50px;
 
 /* Welcome Section Styles Start */
 
-.welcome-section{
-    margin-bottom: 120px;
-}
+
 
 .welcome-container{
     background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../images/Vectorrr.png");
@@ -150,3 +158,25 @@ border: none;
 
 
 /* Welcome Section Styles Start */
+
+
+
+.event-details-container{
+    background-image:linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.event-details-container p{
+    font-family: Inter;
+font-size: 28px;
+font-weight: 600;
+line-height: 56px;
+}
