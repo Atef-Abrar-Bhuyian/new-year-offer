@@ -304,7 +304,6 @@ height: 96px;
     display: flex;
     gap: 240px;
     margin: 50px auto;
-
 }
 
 .surprise-box-img{
@@ -317,6 +316,57 @@ height: 96px;
     padding-left: 70px;
 
 }
-
-
 /* surprise box styles ends */
+
+
+/* Portfolio section Starts here */
+
+.portfolio{
+    width: 1320px;
+    height: 1165px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+.portfolio-text-container h6{
+    color: red;
+    font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+
+}
+
+.portfolio-text-container{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.portfolio-text-container h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 42px;
+font-weight: 900;
+}
+
+.portfolio-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+
+.portfolio-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 24px;
+}
+
+.portfolio-image-container img{
+    width: 424px;
+    height: 450px;
+}
+
+/* Portfolio section ends here */
