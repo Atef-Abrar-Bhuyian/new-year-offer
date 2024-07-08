@@ -295,7 +295,28 @@ height: 96px;
 
 /* surprise box styles start */
 
+.surprise-boxs-container{
+    background-image: url("../images/Rectangle-2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    background-position: bottom;
+    width: 1320px;
+    display: flex;
+    gap: 240px;
+    margin: 50px auto;
 
+}
+
+.surprise-box-img{
+    width: 670px;
+    height: 570px;
+}
+
+.align-center{
+    padding-top: 100px;
+    padding-left: 70px;
+
+}
 
 
 /* surprise box styles ends */
